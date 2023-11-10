@@ -1,4 +1,4 @@
-import chunk from '#/chunk/chunk';
+import { chunk } from '#/chunk/chunk';
 import { describe, expect, it } from 'vitest';
 
 describe('chunk', () => {
