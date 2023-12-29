@@ -128,6 +128,13 @@ module.exports = {
         'no-console': ['off'],
       },
     },
+    {
+      files: ['vitest.config.ts'],
+      rules: {
+        'import/no-default-export': ['off'],
+        'import/no-extraneous-dependencies': ['off'],
+      },
+    },
   ],
   settings: {
     'import/resolver': {
